@@ -231,3 +231,21 @@ Entretanto, não foram realizadas medições reais de economia de energia, redu�
 ## 14. Repositório
 
 O código e a documentação do projeto estão disponíveis neste repositório GitHub.
+
+## 15. Evidências dos testes
+
+### Teste de energia solar insuficiente
+
+Com a energia solar simulada em 2,5 kW, abaixo do limite mínimo de 3,0 kW, o sistema exibiu `ENERGIA BAIXA` e `RECARGA OFF`. O Monitor Serial confirmou o bloqueio.
+
+### Teste de temperatura elevada
+
+Com a temperatura registrada em 45,8 °C, acima do limite de 40 °C, o sistema exibiu `TEMP. ALTA!` e `RECARGA OFF`, desligando o LED de recarga.
+
+![Evidência do bloqueio por temperatura elevada](teste_temperatura_alta.png)
+
+### Teste de desconexão do veículo
+
+Após a desconexão, o display apresentou `VEICULO OFF` e `AGUARDANDO...`, indicando que o sistema voltou ao estado de espera.
+
+![Evidência da desconexão do veículo](teste_desconexao.png)
