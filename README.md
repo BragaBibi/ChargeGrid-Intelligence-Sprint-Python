@@ -242,10 +242,10 @@ Com a energia solar simulada em 2,5 kW, abaixo do limite mínimo de 3,0 kW, o si
 
 Com a temperatura registrada em 45,8 °C, acima do limite de 40 °C, o sistema exibiu `TEMP. ALTA!` e `RECARGA OFF`, desligando o LED de recarga.
 
-![Evidência do bloqueio por temperatura elevada](teste_temperatura_alta.png)
+![Evidência do bloqueio por temperatura elevada](<teste de temperatura.png>)
 
 ### Teste de desconexão do veículo
 
 Após a desconexão, o display apresentou `VEICULO OFF` e `AGUARDANDO...`, indicando que o sistema voltou ao estado de espera.
 
-![Evidência da desconexão do veículo](teste_desconexao.png)
+![Evidência da desconexão do veículo](<teste de desconexão.png>)
